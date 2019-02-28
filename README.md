@@ -16,13 +16,13 @@ Needs:
 [AC-Sunday, 24th of February]--Major Element: Framework that allows all these objects and attributes to interact (React, json)
 
 
-[ ]-Landing page for character creation
+[JS]-Landing page for character creation
 
 [CS]-Hero
     -Statistics per LIMB: (arms, legs, body, head?)
 
-[ ]-Hero Characteristics
-        [ ]-individial stats/attributes --- (Will affect both Combat and Story elements)
+[CS/AC]-Hero Characteristics
+        [CS/AC]-individial stats/attributes --- (Will affect both Combat and Story elements)
             *HP (vitality)
             *Armor/Defense
             *Attack/Strength
@@ -36,9 +36,11 @@ Needs:
                 Story: Decision hinge determines riddle?
                 Riddle: Riddles provide hints for the Big Bosses depending on how you solve it.
 
-[ ]-there will be sprites/placeholders
+[JS/AC/CS]-There will be sprites/placeholders
+
+[AC/CS]- Monster
         
-[ ]-riddles to solve (E.B.O.N.Y.esque)
+[JS]-riddles to solve (E.B.O.N.Y.esque)
     mini-Boss---->Boss
         [ ]-individual stats/attributes
 
