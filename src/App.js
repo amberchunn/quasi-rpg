@@ -1,6 +1,8 @@
 import React from 'react';
 import Landing from './Components/Landing';
 import styled from 'styled-components';
+import { Route, Link } from 'react-router-dom';
+import Story from './Components/Story-Riddle/Story';
 
 const MasterDiv = styled.div`
     display: flex;
@@ -23,15 +25,20 @@ class App extends React.Component {
 
     render() {
         return (
-            <MasterDiv>
+            <div>
+                <MasterDiv>
 
                 
 
-                <Landing />
+                <Route exact path="/" component={Landing} />
+                <Route path="/story" component={Story} />
+                
 
 
 
-            </MasterDiv>
+                </MasterDiv>
+                <Link className="link-story" to="/story">Story Sample</Link> 
+            </div>
         )
     }
 

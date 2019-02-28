@@ -39,14 +39,16 @@ const LogoH1 = styled.h1`
 
 const Landing = props => {
     return (
-        <LandingMasterDiv>
-            <LogoContainer>
-                <Logo>
-                    <i class="fas fa-dragon"></i>
-                </Logo>
-                <LogoH1>QuasiRPG</LogoH1>
-            </LogoContainer>
-        </LandingMasterDiv>
+        
+            <LandingMasterDiv>
+                <LogoContainer>
+                    <Logo>
+                        <i class="fas fa-dragon"></i>
+                    </Logo>
+                    <LogoH1>QuasiRPG</LogoH1>
+             </LogoContainer>
+            </LandingMasterDiv>
+        
     )
     
 }

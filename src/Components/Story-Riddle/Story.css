@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.tempStoryWrap {
+    margin: auto;
+}
+
+.storyCard{
+    color: white;
+}
